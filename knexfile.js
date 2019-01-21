@@ -2,11 +2,11 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: '//localhost/vecinos-db'
+    connection: 'postgresql://localhost/vecinos-db'
   },
 
   production: {
-    client: 'pp',
+    client: 'pg',
     connection: process.env.DATABASE_URL
   }
 

@@ -4,11 +4,10 @@ exports.up = function (knex, Promise) {
         business.string('name')
         business.string('address')
         business.string('category')
-        business.int('phoneNumber')
-        business.int('hours')
+        business.integer('phoneNumber')
+        business.integer('hours')
         business.string('website')
         business.string('social')
-
     })
 };
 
