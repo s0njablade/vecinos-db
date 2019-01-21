@@ -1,9 +1,9 @@
 exports.up = function (knex, Promise) {
-    return knex.schema.createTable('table_name', (entityInTable) => {
+    return knex.schema.createTable('businesses', (entityInTable) => {
         entityInTable.increments('id')
     })
 };
 
 exports.down = function (knex, Promise) {
-    return knex.schema.dropTableIfExists('table_name')
+    return knex.schema.dropTableIfExists('businesses')
 };
