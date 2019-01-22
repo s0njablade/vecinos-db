@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
         {
           name: "Not Yo Momma's Pies",
           address: "456 MLK BLVD",
-          category: "food",
+          category: "Food",
           phoneNumber: "777.777.7777",
           hours: "6am - 4pm",
           days: "Mon-Sat",
